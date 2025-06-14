@@ -1,0 +1,175 @@
+#VPSs and Servers
+
+Host Arcadia-AWS-Large-Main
+        Hostname ec2-52-9-181-246.us-west-1.compute.amazonaws.com
+        user ubuntu
+Host Arcadia-AWS-Small-Dev
+        Hostname ec2-54-151-10-130.us-west-1.compute.amazonaws.com
+        user ubuntu
+Host AWS-Small-Discord-Bots
+        Hostname ec2-54-215-91-115.us-west-1.compute.amazonaws.com
+        user ubuntu
+Host AWS-Micro-Proxy
+        Hostname ec2-50-18-50-58.us-west-1.compute.amazonaws.com
+        user ubuntu
+Host AWS-Small-WebsiteDevelopment #delete?
+        Hostname ec2-54-215-45-133.us-west-1.compute.amazonaws.com
+        user ubuntu
+Host Oracle-Large-Free
+        Hostname 155.248.210.89
+        user ubuntu
+Host server.wonton.lan-python #still pending
+        Hostname server.wonton.lan
+        user python
+Host server.wonton.lan-server #still pending
+        Hostname server.wonton.lan
+        user server
+Host Hetzner-HBS-1
+        Hostname 5.78.112.0
+        user ubuntu
+Host Runcloud-Hetzner1
+        Hostname 5.161.74.155
+        user davidw
+Host Arcadia-Hetzner-Retool
+        Hostname 5.78.137.203
+        user ubuntu
+Host Arcadia-Azure-APITable
+        Hostname 4.227.59.21
+        user azureuser
+Host Arcadia-Azure-Tools
+        Hostname 20.171.73.48
+        user azureuser
+Host ArcadiaDreamhost
+        Hostname pdx1-shared-a2-11.dreamhost.com
+        ProxyJump AWS-Micro-Proxy
+Host PersonalDreamhost
+        Hostname iad1-shared-e1-15.dreamhost.com
+        ProxyJump AWS-Micro-Proxy
+Host AlhambraDreamhost
+        Hostname iad1-shared-e1-29.dreamhost.com
+        ProxyJump AWS-Micro-Proxy
+Host PasadenaDreamhost
+        Hostname sussex.dreamhost.com
+        ProxyJump AWS-Micro-Proxy
+Host MontereyParkDreamhost
+        Hostname iad1-shared-d12-03.dreamhost.com
+        ProxyJump AWS-Micro-Proxy
+Host SCCSDreamhost
+        Hostname iad1-shared-e1-02.dreamhost.com
+        ProxyJump AWS-Micro-Proxy
+
+#Websites
+
+Host checkin.college-conference.com #need password
+        Hostname checkin.college-conference.com
+        user collegeconfcheckin
+        ProxyJump AWS-Micro-Proxy
+Host churchinalhambra.org #update to runcloud
+        Hostname churchinalhambra.org
+        user churchinalhambra
+Host churchinarcadia.com #update to runcloud
+        Hostname churchinarcadia.com
+        user churchinarcadia
+Host backgroundcheck.churchinarcadia.com
+        Hostname 5.78.94.34
+        user backgrou1
+Host churchinelmonte.org
+        Hostname churchinelmonte.org
+        user churchinelmonte
+        ProxyJump AWS-Micro-Proxy
+Host churchinmonrovia.org #update to runcloud
+        Hostname churchinmonrovia.org
+        user churchinmonrovia
+        ProxyJump AWS-Micro-Proxy
+Host churchofgodinrosemead.org
+        Hostname churchofgodinrosemead.org
+        user churchinrosemead
+        ProxyJump AWS-Micro-Proxy
+Host college-conference.com
+        Hostname 5.78.94.34
+        #user 
+Host csulachristians.org
+        Hostname csulachristians.org
+        user csulachristians
+        ProxyJump AWS-Micro-Proxy
+Host daviddwang.com
+        Hostname daviddwang.com
+        user davidwang
+Host dev.churchinarcadia.com
+        Hostname dev.churchinarcadia.com
+        user tciadev
+        ProxyJump AWS-Micro-Proxy
+Host dev.daviddwang.com
+        Hostname dev.daviddwang.com
+        user duendwangdev
+        ProxyJump AWS-Micro-Proxy
+Host gospel-meeting.org
+        Hostname gospel-meeting.org
+        user gospelmeeting
+        ProxyJump AWS-Micro-Proxy
+Host hirambusinesssolutions.com #update to runcloud
+        Hostname siteground334.com
+        user u1373-tmncq9bwxvrm
+        Port 18765
+Host hiramwebmanagement.com
+        Hostname 5.78.94.34
+        user hiramweb1
+Host mulan-wang.com
+        Hostname mulan-wang.com
+        user mulanwang
+        ProxyJump AWS-Micro-Proxy
+Host pccchristians.org
+        Hostname pccchristians.org
+        user pccchristians
+        ProxyJump AWS-Micro-Proxy
+Host propertymanagement.churchinarcadia.com
+        Hostname 5.78.94.34
+        user property1
+Host psrpmeals.churchinarcadia.com
+        Hostname psrpmeals.churchinarcadia.com
+        user psrpmeals
+        ProxyJump AWS-Micro-Proxy
+Host riohondochristians.org #update to runcloud
+        Hostname riohondochristians.org
+        user riohondochristians
+        ProxyJump AWS-Micro-Proxy
+Host thechurchinpasadena.org
+        Hostname thechurchinpasadena.org
+        user churchinpasadena
+        ProxyJump AWS-Micro-Proxy
+Host websites.hirambusinesssolutions.com #check and update
+        Hostname websites.hirambusinesssolutions.com
+        user hiramwebsites
+        ProxyJump AWS-Micro-Proxy
+Host wiki.college-conference.com
+        Hostname 5.78.94.34
+        user wiki_col1
+Host wontontech.com
+        Hostname wontontech.com
+        user wontontech
+    ProxyJump AWS-Micro-Proxy
+
+#HelpingOthers
+
+Host srqc
+        Hostname 155.248.234.101
+        user ubuntu
+        IdentityFile ~/Documents/Keys/srqc/id_ed25519_srqc
+Host net-tech
+        Hostname 144.172.67.135
+        user bot-runner
+        IdentityFile ~/Documents/Keys/net-tech/private_key
+Host Cervanthes
+        Hostname 157.254.169.141
+        user debjd167
+        IdentityFile ~/Documents/Keys/Cervanthes/id_ed25519_Cervanthes
+Host SnakeGames
+        Hostname zep.vaultedmc.net
+        user zeppelin
+Host therealedk
+        Hostname billybot.therealedk.xyz
+        user opc
+        IdentityFile ~/Documents/Keys/therealedk/id_ed25519
+
+Host *
+        IdentityFile ~/.ssh/id_ed25519
