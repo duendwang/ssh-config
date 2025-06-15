@@ -12,9 +12,6 @@ Host AWS-Small-Discord-Bots
 Host AWS-Micro-Proxy
         Hostname ec2-50-18-50-58.us-west-1.compute.amazonaws.com
         user ubuntu
-Host AWS-Small-WebsiteDevelopment #delete?
-        Hostname ec2-54-215-45-133.us-west-1.compute.amazonaws.com
-        user ubuntu
 Host Oracle-Large-Free
         Hostname 155.248.210.89
         user ubuntu
