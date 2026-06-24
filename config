@@ -21,6 +21,9 @@ Host server.wonton.lan-python #still pending
 Host server.wonton.lan-server #still pending
 	Hostname server.wonton.lan
 	user server
+Host nas1.wonton.lan
+	Hostname nas1.wonton.lan
+	user nas
 Host Runcloud-Hetzner1
 	Hostname 5.161.74.155
 	user davidw
