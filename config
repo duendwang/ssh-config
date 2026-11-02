@@ -8,21 +8,21 @@ Host Arcadia-AWS-Small-Dev
 	user ubuntu
 Host AWS-Small-Discord-Bots
 	Hostname ec2-54-215-91-115.us-west-1.compute.amazonaws.com
-	user ubuntu
+	user ubunt
 Host AWS-Micro-Proxy
 	Hostname ec2-50-18-50-58.us-west-1.compute.amazonaws.com
 	user ubuntu
 Host Oracle-Large-Free
 	Hostname 155.248.210.89
 	user ubuntu
-Host server.wonton.lan-python #still pending
-	Hostname server.wonton.lan
+Host server.home.arpa-python #still pending
+	Hostname server.home.arpa
 	user python
-Host server.wonton.lan-server #still pending
-	Hostname server.wonton.lan
+Host server.home.arpa-server #still pending
+	Hostname server.home.arpa
 	user server
-Host nas1.wonton.lan
-	Hostname nas1.wonton.lan
+Host nas1.home.arpa
+	Hostname nas1.home.arpa
 	user nas
 Host Runcloud-Hetzner1
 	Hostname 5.161.74.155
