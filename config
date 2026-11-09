@@ -6,9 +6,12 @@ Host Arcadia-AWS-Large-Main
 Host Arcadia-AWS-Small-Dev
 	Hostname ec2-54-151-10-130.us-west-1.compute.amazonaws.com
 	user ubuntu
+Host Arcadia-AWS-Medium-Website-Mockups
+	Hostname ec2-54-151-10-130.us-west-1.compute.amazonaws.com
+	user ubuntu
 Host AWS-Small-Discord-Bots
 	Hostname ec2-54-215-91-115.us-west-1.compute.amazonaws.com
-	user ubunt
+	user ubuntu
 Host AWS-Micro-Proxy
 	Hostname ec2-50-18-50-58.us-west-1.compute.amazonaws.com
 	user ubuntu
